@@ -12,11 +12,7 @@ Teknolojinin gelişmesiyle birlikte veri akışının hızı da artmıştır. Bu
 
 ### Asimetrik Şifreleme Algoritmaları ve RSA
 Asimetrik şifreleme algoritmaları, verileri şifrelemek ve şifresini çözmek için bir açık anahtar (public key) ve bir özel anahtar (private key) olmak üzere iki anahtar gerektirir. Bu tür algoritmalar kullanıldığında, açık anahtarla şifrelenen verilerin şifresi özel anahtarla çözülebilir. Günümüzde en yaygın olarak kullanılan asimetrik şifreleme algoritması RSA algoritmasıdır.
-RSA, 1977'de üç bilim adamı, Ron Rivest, Adi Shamir ve Leonard Adleman tarafından geliştirilmiştir [1]. Algoritmanın adı, algoritmayı geliştiren kişiler tarafından yazılan bilimsel makaledeki soyadlarının ilk harflerinin birleşiminden gelmektedir [2].
-RSA algoritması veriyi aşağıdaki formülü kullanarak şifrelemektedir. Bu formülde P veri, C verinin şifrelenmiş hali, e açık anahtar, d özel anahtar ve n iki büyük asal sayının çarpımıdır [3].
-C= P^e mod n
-RSA, şifrelenen veriyi deşifre etmek için ise bu formülü kullanmaktadır:
-P= C^d  mod n
+RSA, 1977'de üç bilim adamı, Ron Rivest, Adi Shamir ve Leonard Adleman tarafından geliştirilmiştir. Algoritmanın adı, algoritmayı geliştiren kişiler tarafından yazılan bilimsel makaledeki soyadlarının ilk harflerinin birleşiminden gelmektedir.
 
 
 ### Uygulamanın Demosu
